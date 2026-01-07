@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* main logo */
+
+.container {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.main-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 49px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 29px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-between;
+    width: 420px;
+}
+
+.link a {
+    color: black;
+}
+
+.tools {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    position: relative;
+}
+
+.number {
+    position: absolute;
+    padding: 50px;
+    padding-top: 43px;
+}
+
+.btn {
+    display: flex;
+    gap: 3.5px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 13px 30px;
+    background-color: #EB0029;
+    color: white;
+    font-size: 14px;
+    font-weight: 500%;
+    border: none;
+}
+
+/* main page */
+
+.main-page {
+    display: flex;
+    position: relative;
+}
+
+.face {
+    display: flex;
+    border-radius: 50px;
+    padding: 11px 15px;
+    justify-content: space-between;
+    box-shadow: 4px 6px 12px rgb(0, 0, 0, 0.28);
+    width: 323px;
+    height: 71px;
+    background-color: white;
+    z-index: 10;
+    position: absolute;
+    left: -50px;
+    top: 530px;
+}
+
+.face p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.face span {
+    font-weight: 500;
+    font-size: 12px;
+    color: #828282;
+
+}
+
+.pizza {
+    display: flex;
+    width: 290px;
+    height: 131px;
+    padding: 17px;
+    gap: 21px;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 4px 6px 12px rgb(0, 0, 0, 0.28);
+    position: absolute;
+    right: 40px;
+    top: 570px;
+    padding-right: 30px;
+}
+
+.pizza p {
+    font-weight: 600;
+    font-size: 18px;
+    color: #333333;
+}
+
+.pizza>img {
+    width: 113px;
+    height: 97px;
+}
+
+.food img {
+    width: 669px;
+    height: 650px;
+}
+
+
+.main-rigth {
+    width: 700px;
+    height: 690px;
+    padding: 20px;
+    position: relative;
+}
+
+.yellowpoint {
+    position: absolute;
+    left: -20px;
+    top: 230px;
+}
+
+.redcube2 img {
+    width: 12px;
+    height: 12px;
+}
+
+.redcube2 {
+    position: absolute;
+    top: 680px;
+    right: 500px;
+}
+
+.redcube {
+    position: absolute;
+    top: 430px;
+    right: 21px;
+}
+
+.fire {
+    position: absolute;
+    right: 90px;
+    top: 0;
+}
+
+.line img {
+    width: 78px;
+    height: 147px;
+}
+
+.line {
+    position: absolute;
+    top: 80px;
+    right: 40px;
+}
+
+.time img {
+    width: 110px;
+    height: 110px;
+}
+
+.time {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.cherry {
+    display: inline-flex;
+    gap: 16px;
+    border-radius: 50px;
+    text-align: center;
+    padding: 14px 20px;
+    background-color: #FEE9DE;
+    color: #EB0029;
+    border: none;
+}
+
+.cherry h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.main-left h3 span {
+    color: #EB0029;
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    font-style: italic;
+}
+
+.main-left h3 {
+    font-size: 67px;
+    font-weight: 700;
+    font-family: "Rubik", sans-serif;
+    padding-top: 50px;
+    line-height: 85px;
+}
+
+.main-page {
+    padding-top: 127px;
+    padding-bottom: 102px;
+}
+
+
+.main-left {
+    width: 594px;
+    height: 424px;
+    position: relative;
+}
+
+.raiting {
+    display: flex;
+    padding-top: 117px;
+    position: relative;
+}
+
+.girl1 {
+    position: absolute;
+    top: 136px;
+    left: 0;
+}
+
+.girl2 {
+    position: absolute;
+    top: 136px;
+    left: 40px;
+}
+
+.girl3 {
+    position: absolute;
+    top: 136px;
+    left: 80px;
+}
+
+.r-title p {
+    font-size: 17px;
+}
+
+.r-title span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.r-title {
+    text-align: start;
+    position: absolute;
+    left: 170px;
+}
+
+
+
+.main-left p {
+    padding-top: 25px;
+    width: 470px;
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.btn-yellow {
+    display: flex;
+    width: 200px;
+    align-items: center;
+    height: 46px;
+    padding: 15px;
+    gap: 30px;
+    background: none;
+    border: none;
+    position: relative;
+}
+
+.cyrcle {
+    position: absolute;
+    width: 46px;
+    height: 46px;
+    background-color: #F2C94C;
+    border-radius: 50%;
+    z-index: -1;
+    left: 0px;
+}
+
+.btn-yellow h6 {
+    font-weight: 500;
+    font-size: 18px;
+    color: #333333;
+}
+
+.buttons {
+    display: flex;
+    padding-top: 25px;
+    gap: 29px;
+    align-items: center;
+}
+
+
+.buttons .btn {
+    padding: 22px 41px;
+    font-size: 18px;
+}
