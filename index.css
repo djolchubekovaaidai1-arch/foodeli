@@ -322,3 +322,461 @@
     padding: 22px 41px;
     font-size: 18px;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #fff;
+    color: #222;
+}
+
+.service {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.subtitle {
+    color: #ff4d4f;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.service h1 {
+    font-size: 40px;
+    margin: 15px 0 60px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    flex-wrap: wrap;
+    min-width: 1250px;
+}
+
+.card {
+    width: 260px;
+    padding: 20px;
+    margin: 40px 60px;
+}
+
+.card img {
+    width: 233px;
+    height: 205px;
+    margin-bottom: 20px;
+}
+
+.card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+}
+.menu {
+    padding: 60px 80px;
+}
+
+.small-title {
+    color: #ff0033;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.menu-header {
+    position: relative;
+}
+
+.menu-header h1 {
+    font-size: 42px;
+    margin-top: 10px;
+    line-height: 1.2;
+}
+
+.arrows {
+    position: absolute;
+    right: 0;
+    top: 40px;
+    display: flex;
+    gap: 12px;
+}
+
+.arrow {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.arrow.gray {
+    background: #eee;
+}
+
+.arrow.red {
+    background: #ff0033;
+    color: #fff;
+}
+
+.menu-content {
+    display: flex;
+    margin-top: 50px;
+    align-items: flex-start;
+}
+
+.categories {
+    list-style: none;
+    width: 180px;
+}
+
+.categories li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+.categories li.active {
+    background: #ff0033;
+    color: #fff;
+}
+
+.line {
+    width: 6px;
+    height: 343px;
+    /* background: #eee; */
+    margin: 0 40px;
+    position: relative;
+}
+
+.line span {
+    width: 6px;
+    height: 76px;
+    background: #ff0033;
+    position: absolute;
+    /* top: 50px; */
+    left: 0;
+    border-radius: 10px;
+}
+
+.photos {
+    display: flex;
+    gap: 30px;
+}
+
+.photo {
+    width: 300px;
+    height: 420px;
+    border-radius: 26px;
+    overflow: hidden;
+    position: relative;
+}
+
+.photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+}
+
+.card-text h3 {
+    font-size: 20px;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.order {
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+/* REVIEWS */
+.reviews {
+  display: flex;
+  gap: 60px;
+  padding: 80px;
+  align-items: center;
+}
+
+.reviews-left {
+  position: relative;
+}
+
+.chef-bg {
+  width: 260px;
+  height: 260px;
+  background: #ff4d4d;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  left: 20px;
+}
+
+.chef {
+  width: 280px;
+}
+
+.reviewers {
+  margin-top: 20px;
+  background: #fff;
+  padding: 12px;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.avatars {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 6px;
+}
+
+.avatars img {
+  border-radius: 50%;
+}
+
+.count {
+  background: red;
+  color: #fff;
+  padding: 4px 8px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+
+.reviews-right h6 {
+  color: red;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+
+.reviews-right h2 {
+  margin: 12px 0;
+  font-size: 32px;
+}
+
+.reviews-right p {
+  color: #666;
+  max-width: 420px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+.author img {
+  border-radius: 50%;
+}
+
+.author span {
+  font-size: 12px;
+  color: #777;
+}
+
+.stars {
+  color: gold;
+  font-size: 18px;
+}
+
+.stars span {
+  color: #000;
+  margin-left: 6px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px;
+  background: #fff3ee;
+  border-radius: 30px;
+  max-width: 1200px;
+  margin: 40px auto;
+}
+
+.content {
+  max-width: 500px;
+}
+
+.label {
+  color: #ff4d4f;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-size: 48px;
+  margin: 20px 0;
+  color: #1f1f1f;
+}
+
+p {
+  color: #666;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+button {
+  padding: 14px 30px;
+  background: #ff4d4f;
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background: #e63c3e;
+}
+
+.mockup {
+  background: #fff;
+  width: 320px;
+  height: 420px;
+  border-radius: 30px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  text-align: center;
+}
+
+.card h3 {
+  margin-bottom: 20px;
+}
+
+.order-btn {
+  background: #ff4d4f;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 30px;
+  color: #888;
+  font-size: 14px;
+}
+.footer {
+  padding: 80px 40px;
+  background: #fff;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr 1.5fr;
+  gap: 40px;
+}
+
+.footer-col h4 {
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: black;
+}
+
+.footer-col p {
+  color: #666;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-col ul {
+  list-style: none;
+}
+
+.footer-col ul li {
+  margin-bottom: 12px;
+}
+
+.footer-col ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 14px;
+}
+
+.footer-col ul li a:hover {
+  color: #ff4d4f;
+}
+
+.logo {
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.logo span {
+  /* background: #ff4d4f; */
+  color: #fff;
+  font-weight: 700;
+  padding: 6px 8px;
+}
+
+/* .logo span:last-child {
+  background: #000;
+} */
+
+.socials {
+  margin-top: 20px;
+}
+
+.socials a {
+  margin-right: 12px;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.subscribe .input-box {
+  display: flex;
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  overflow: hidden;
+}
+
+.subscribe input {
+  border: none;
+  padding: 12px 20px;
+  flex: 1;
+  outline: none;
+}
+
+.subscribe button {
+  background: #ff4d4f;
+  border: none;
+  color: #fff;
+  padding: 0 18px;
+  cursor: pointer;
+}
